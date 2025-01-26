@@ -82,8 +82,6 @@ sns.countplot(x='Class', data=data)
 plt.title("Fraud Class Distributions")
 plt.show() #如果是在jupyter notebook之下，则不需要这句话
 #经过观察图像，我们发现，这份数据中存在极度的样本不均衡问题，
-#因此我们在后续处理中，需要着重关注这个问题
-#而正是因为我们进行了恰当的EDA操作，才发现了这个问题。
 
 #=======================检查数据问题，测空值=============================
 # 使用missingno查看数据集中的空值
